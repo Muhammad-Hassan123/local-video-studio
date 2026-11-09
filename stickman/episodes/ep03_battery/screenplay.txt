@@ -1,0 +1,167 @@
+TITLE: What If You Could See Everyone's Battery?
+NARRATOR: am_puck
+THUMB: 1% LEFT? | walter scared | platform | over=battery 1
+THUMB: HE DRAINS US | kane smug | office | over=battery 140
+THUMB: I CAN SEE IT | max shocked | night_street | over=battery 9
+
+# ---------------------------------------------------------------- locations (reused plates keep their pick)
+@platform: A subway train platform in the early morning, tiled walls, a long empty platform floor in the foreground, a yellow safety line along the edge, soft cold fluorescent light mixed with warm sunlight from the stairs, no people, no trains
+@office: A modern open-plan office in the daytime, desks with computer monitors in the background, big windows, a clear floor area in the foreground, no people
+@cafe {amb=room}: A cozy city cafe interior in the daytime, small round wooden tables and chairs along the walls, a counter with a coffee machine in the back, warm light through big windows, an open floor in the middle, no people
+@kitchen: A small modern apartment kitchen in the daytime, a counter with a few items along the back wall, a window with soft daylight, plants, a clear floor area in the foreground, no people
+@kitchen_night < kitchen {amb=night}: The same apartment kitchen from the reference image at night, dark blue city lights through the window, one warm lamp glowing, everything else exactly the same, no people
+@street: A wide city street in the early morning, a glass bus stop shelter on the right side of the sidewalk, an empty sidewalk running across the whole foreground, apartment buildings and shops with plain blank awnings and no signs, soft golden morning sunlight, long shadows, no people, no vehicles
+@hospital {amb=room}: A quiet hospital corridor at night, pale green walls, a row of plastic waiting chairs along the back wall, a window with city lights, soft fluorescent light, a clean empty floor in the foreground, no people
+@phone_shop {amb=room}: A small bright phone repair shop, a glass counter with phones and cables along the back, shelves of phone cases, warm light, an open floor in the foreground, no people
+@night_street {pick=2}: A dark empty city street at night, a single old street lamp on the left casting a pool of warm light on the wet sidewalk, light fog, dark buildings, no people
+@rooftop_dawn: A flat city rooftop at sunrise with a low brick parapet wall, water tanks and antennas, the city skyline glowing under a warm golden sky, no people
+
+## One Percent
+== platform | extra:3, max, walter, extra:12 (tense)
+NARRATOR: It's eight in the morning on a packed train platform, and something is very wrong. [max: shocked shocked look left] {over: extra:3=battery 64 | walter=battery 87 | extra:12=battery 12}
+NARRATOR: Every person around you has a battery floating above their head. [max: worried look right] {shot: wide}
+NARRATOR: The man in the suit is at sixty-four percent. The teenager on his phone is at twelve. Low power mode. [extra:3: neutral; extra:12: slump sad] {shot: medium}
+NARRATOR: And the old man right next to you is dropping fast. [walter: slump worried] {over: walter=battery 87->6; shot: wide}
+NARRATOR: Five percent. Three. One. It's blinking red. [walter: shake scared] {over: walter=battery 6->1; shot: medium}
+NARRATOR: Then it hits zero. [walter: lie] {over: walter=battery 1->0; burst: THUD!@0.45; shot: wide; hold: 0.8}
+NARRATOR: Nobody moves. Nobody else can see what you see. [max: shocked shocked look right] {shot: close}
+NARRATOR: Without thinking, you kneel down and grab his hand. [max: reach worried] {shot: wide}
+NARRATOR: And something flows out of you. [max: catch squeeze] {over: walter=battery 0->20; hud: YOUR BATTERY=battery 100->80}
+NARRATOR: Twenty percent. He opens his eyes and sits up like nothing happened. [walter: idle smile] {shot: medium}
+NARRATOR: You just gave a stranger a piece of yourself. And you have no idea what it's going to cost you. [max: worried sweat] {shot: close}
+-- title 3.2 {pop: WHAT IF YOU COULD SEE EVERYONE'S BATTERY?}
+
+## The Rules
+== kitchen | max (happy)
+NARRATOR: At home, you check the mirror. Your own battery says eighty. [max: worried look right] {over: max=battery 80}
+NARRATOR: So you start testing it, like a scientist with a very weird lab. [max: smug] {note: EXPERIMENT 1}
+NARRATOR: A strong coffee: plus three percent. [max: smile] {over: max=battery 80->83}
+NARRATOR: Your mom calling to ask when you're getting married: minus nine. [max: phone sad] {over: max=battery 83->74}
+NARRATOR: Reading the comments under your favorite video: minus twenty. [max: phone shocked shocked] {over: max=battery 74->54}
+NARRATOR: A twenty minute nap: plus forty-six. You feel incredible. [max: idle happy] {over: max=battery 54->100; hud: YOUR BATTERY=battery 100}
+NARRATOR: Hugging your dog: plus twelve. A traffic jam: minus fifteen. A stranger smiling at you for no reason: plus five. [max: laugh laugh] {note: EXPERIMENT 47}
+NARRATOR: The whole world is one giant charging station, and most people are plugged into the wrong outlets. [max: smug] {shot: close}
+NARRATOR: So it isn't how tired you are. It's how much life you have in you today. [max: serious] {shot: close; note: RULE 1: EVERYTHING CHARGES OR DRAINS YOU}
+NARRATOR: And when you touch someone on purpose, you can give it away. [max: reach serious] {note: RULE 2: YOU CAN GIVE IT AWAY}
+NARRATOR: You try it on your cat. Nothing happens. Cats are always at one hundred percent. [max: shrug smile] {sfx: crickets@0.4}
+
+## The Office
+== office | max, coworker, extra:2, kane@later (calm)
+NARRATOR: At work, you can suddenly see everything. [max: smug] {over: coworker=battery 31 | extra:2=battery 9; shot: wide}
+NARRATOR: Your coworker Sam is at thirty-one percent, and it's only Monday. [coworker: slump sad]
+NARRATOR: Sam has a newborn at home. He hasn't slept more than three hours in a row since summer. [coworker: sad]
+NARRATOR: The new intern is at nine. She's been crying in the bathroom again. [extra:2: sad]
+NARRATOR: So you start giving. A high five here. A pat on the back there. [max: reach smile] {over: coworker=battery 31->52 | extra:2=battery 9->35; hud: YOUR BATTERY=battery 100->85}
+NARRATOR: Sam smiles for the first time in weeks. [coworker: happy]
+COWORKER: Did you change your cologne or something? I feel amazing. [happy talk]
+MAX: Something like that. [smug]
+NARRATOR: Then your boss walks in. [kane: enter left serious] {sfx: sting@0.5}
+NARRATOR: Mr. Kane. One hundred percent. Always. [kane: hips smug] {over: kane=battery 100}
+NARRATOR: And every time he walks past someone's desk, their battery drops. [coworker: slump sad; extra:2: worried] {over: coworker=battery 52->23 | extra:2=battery 35->14}
+KANE: Numbers by Friday, Sam. Or don't bother coming back. [smug talk]
+NARRATOR: That afternoon, there's a team meeting. Twelve people walk in at around sixty percent. [max: worried] {note: 2:00 PM MEETING}
+NARRATOR: One hour of Kane later, they all walk out at thirty. Kane walks out at one hundred and ten. {graphic: versus 60% | 30% | ONE MEETING WITH KANE}
+NARRATOR: He isn't tired. He isn't stressed. He's charging himself off everyone else. [max: angry] {pop: HE'S A DRAINER}
+NARRATOR: You've worked with this man for three years. Now you finally know why every meeting with him feels like a hangover. [max: serious] {shot: close}
+
+## The Secret Charger
+== street | max, extra:4, extra:8 (happy)
+NARRATOR: So you become a secret charger. [max: walk right happy] {note: WEEK 1}
+NARRATOR: A bus driver at four percent, about to fall asleep at the wheel. [extra:4: slump sad] {over: extra:4=battery 4}
+NARRATOR: You shake his hand, and suddenly he's wide awake. [max: reach smile; extra:4: happy] {over: extra:4=battery 4->40; hud: YOUR BATTERY=battery 92->78}
+NARRATOR: A nurse finishing a double shift. Ten percent becomes fifty. [extra:8: happy] {over: extra:8=battery 10->50}
+NARRATOR: A guy outside a restaurant, about to propose, so nervous he's at fifteen. You give him a fist bump. He walks in at sixty. [extra:4: hips happy] {over: extra:4=battery 15->60; shot: medium}
+NARRATOR: She says yes. You hear the cheering from the street. [max: laugh laugh] {sfx: ding@0.3}
+NARRATOR: A kid crying over a failed math test. A mom pushing twins up a hill. A street musician nobody stops for. [extra:8: sad -> happy] {over: extra:8=battery 8->45; note: WEEK 3}
+NARRATOR: You charge them all. For the first time in your life, you feel useful. [max: happy] {shot: close}
+NARRATOR: In one month, you charge two hundred and fourteen people. {graphic: number 214 | PEOPLE CHARGED}
+NARRATOR: And every night, you sleep, and you're back to one hundred. Easy. [max: smile] {hud: YOUR BATTERY=battery 100}
+
+## Battery Health
+== kitchen_night | max (tense)
+NARRATOR: But remember that price I mentioned at the start? This is where you start paying it. [max: worried] {shot: close}
+NARRATOR: One morning, your battery only fills up to ninety-six. [max: worried] {hud: YOUR BATTERY=battery 96}
+NARRATOR: The next week, it stops at ninety-one. [max: shocked shocked] {hud: YOUR BATTERY=battery 91}
+NARRATOR: You know this feeling. You just can't remember from where. [max: shrug worried]
+
+== phone_shop | max, extra:10 (tense)
+NARRATOR: Then your phone dies at lunch, and you take it to a repair shop. [max: phone sad] {shot: wide}
+NARRATOR: The guy behind the counter barely looks up. [extra:10: neutral]
+NARRATOR: Battery health, eighty-one percent. It loses a little every time you charge it. Nothing lasts forever, man. [extra:10: shrug neutral] {pop: BATTERY HEALTH 81%}
+NARRATOR: Real lithium batteries work exactly like that. Every full cycle wears them down. After a few hundred cycles, they hold far less than they did when new. {graphic: chart down | MAX CAPACITY PER CHARGE CYCLE}
+NARRATOR: And you realize you've been running the same experiment on yourself. [max: shocked shocked] {hud: BATTERY HEALTH=text 91%}
+NARRATOR: Every time you give, your battery gets a little smaller. Forever. [max: slump sad] {pop: IT NEVER COMES BACK}
+NARRATOR: You do the math. By thirty, you'll never charge past half. {graphic: versus 100% | 50% | YOU AT 30}
+NARRATOR: So you stop. No more giving. Every percent stays with you. [max: fists serious] {note: RULE 3: GIVING COSTS YOU FOREVER}
+NARRATOR: You walk past the bus driver at three percent. You don't shake his hand. [max: walk right serious] {shot: wide}
+NARRATOR: Your friends call. You let it ring. A phone call costs two percent. [max: phone sad] {hud: YOUR BATTERY=battery 100}
+NARRATOR: You're always at one hundred now. You've never felt so empty. [max: slump sad] {shot: close; hold: 0.6}
+
+== platform | max, walter@later (tense)
+NARRATOR: The next morning, on the same platform, someone taps you on the shoulder. [walter: enter left smile] {shot: wide}
+NARRATOR: It's the old man. Sixty percent today. [walter: smile] {over: walter=battery 60}
+WALTER: You're the one who caught me. I felt it. [smile]
+MAX: Wait. You can see them too? [shocked shocked]
+WALTER: For seventy years. I was a giver, just like you. I gave and gave, because it felt good. [sad]
+NARRATOR: Then you see the small number under his battery. Battery health: two percent. [max: shocked shocked] {over: walter=tag HEALTH 2%; pop: HEALTH: 2%}
+WALTER: Giving isn't wrong, kid. Giving to the wrong people is. [serious]
+WALTER: Find your charger. Everybody needs one. [point smile]
+NARRATOR: Before you can ask what he means, the train pulls in, and he's gone. [walter: exit right smile] {sfx: brakes@0.3}
+
+## Zoe
+== cafe | max, zoe (calm)
+NARRATOR: That's when Zoe sits down across from you. [zoe: smile] {over: zoe=battery 72; shot: wide}
+ZOE: You look tired. Are you okay? [worried]
+ZOE: Seriously, you've been weird lately. Good weird, though. [smile]
+NARRATOR: Seventy-two percent. She seems fine. [max: smile]
+NARRATOR: But over the next three weeks, Zoe's battery never charges. Sixty. Fifty. Forty-five. [zoe: worried] {over: zoe=battery 72->45; note: 3 WEEKS LATER}
+NARRATOR: She laughs at your jokes. She says she's fine. Her battery says she isn't. [zoe: laugh laugh] {over: zoe=battery 45->38}
+NARRATOR: And you, the guy who can see it, say nothing. You're saving your percent. [max: serious] {shot: close}
+
+== hospital | max, zoe (dark)
+NARRATOR: One night, she texts you from a hospital. You get there in ten minutes. [max: run right worried] {shot: wide}
+NARRATOR: Twelve percent. [max: shocked shocked] {over: zoe=battery 38->12; hold: 0.8}
+MAX: Zoe. What happened? Talk to me. [worried]
+ZOE: My dad. His heart. I've been here every night for a month. [sad]
+ZOE: I didn't want to bother anyone. You always looked so tired. [sad]
+NARRATOR: You know exactly what giving costs now. Every percent is a piece of you that never comes back. [max: fists squeeze shake]
+NARRATOR: You take her hand anyway. [max: catch serious] {over: zoe=battery 12->60; hud: YOUR BATTERY=battery 100->52}
+NARRATOR: Forty-eight percent. The most you've ever given. {pop: -48%; hold: 0.6}
+ZOE: Whoa. What was that? I feel like I just slept for a week. [shocked shocked]
+NARRATOR: You smile, and you don't say a word. [max: smile]
+
+## The Drainer
+== office | max, coworker, kane (dark)
+NARRATOR: The next Monday, you walk into the office at fifty-two percent. [max: slump sad] {over: coworker=battery 20 | kane=battery 100; shot: wide}
+NARRATOR: Sam is back down to twenty. Kane is waiting for you by your desk. [kane: hips smug]
+KANE: You can see them too, can't you? The numbers. [smug]
+NARRATOR: Your blood runs cold. [max: shocked shocked] {sfx: heartbeat@0}
+KANE: Givers like you are rare. Most people just drain. [smug talk]
+KANE: Work for me, and you'll never drop below a hundred again. All you have to do is share a little every day. [point serious]
+NARRATOR: For the first time, you look closely at his battery. [max: serious]
+NARRATOR: It doesn't say one hundred. It says one hundred and forty. [kane: smug] {over: kane=battery 140; hold: 0.8}
+NARRATOR: He's been stealing from everyone in this building for years. Sam. The intern. You. [max: angry]
+KANE: I was a giver once. Just like you. By thirty, my battery health was at forty. [serious]
+KANE: So I learned to take instead. It's not cruel. It's math. [smug]
+MAX: No deal. [angry]
+KANE: Then enjoy being empty. [smug]
+NARRATOR: You walk over to Sam, and you do the one thing Kane never expected. [max: walk right angry]
+NARRATOR: You give what's left of you to everyone in the room. Not to Kane. To them. [max: catch squeeze; coworker: happy] {over: coworker=battery 20->70; hud: YOUR BATTERY=battery 52->9}
+NARRATOR: Every battery in the office turns green at once. Except two. [coworker: happy bounce] {shot: wide; hold: 0.6}
+COWORKER: Dude. Why do I feel like I just slept twelve hours? [happy talk]
+NARRATOR: Yours, at nine percent. And Kane's, falling fast, because there's no one left to drain. [kane: shocked shocked] {over: kane=battery 140->35}
+KANE: What did you do? [scared]
+NARRATOR: By Friday, Kane has quit. Nobody can explain why the office suddenly feels so light. [coworker: laugh laugh] {note: FRIDAY}
+
+## Charging
+== rooftop_dawn | max, zoe (calm)
+NARRATOR: Your battery health will never be a hundred again. It's seventy-nine now. [max: serious] {hud: BATTERY HEALTH=text 79% | YOUR BATTERY=battery 64; shot: wide}
+NARRATOR: But Zoe's dad came home from the hospital. Sam got promoted. The intern stopped crying in the bathroom. [max: smile] {over: zoe=battery 88}
+ZOE: So. Are you ever going to tell me how you did that? [smug]
+NARRATOR: And that's when you notice something about Zoe's battery. [max: worried look right]
+NARRATOR: There's a tiny lightning bolt next to it, and it's pointing at you. [max: shocked shocked] {sfx: sting@0.4; over: zoe=tag 88% CHARGING YOU; hold: 1.0}
+NARRATOR: Every time you were empty, someone was quietly filling you back up. [zoe: smile] {hud: YOUR BATTERY=battery 64->100}
+NARRATOR: The old man was right. Everybody needs a charger. You just never noticed yours. [max: smile] {shot: close}
+ZOE: You felt that, didn't you? [smug]
+-- card 3.5 {pop: TO BE CONTINUED...}
+-- card 10 {pop: WHO DRAINS YOUR BATTERY? TELL US IN THE COMMENTS}

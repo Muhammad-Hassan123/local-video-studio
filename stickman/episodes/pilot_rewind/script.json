@@ -1,0 +1,1379 @@
+{
+ "title": "What If You Could Rewind 10 Seconds",
+ "voices": {
+  "narrator": "am_puck",
+  "max": "am_liam",
+  "interviewer": "af_sarah",
+  "stranger": "bm_george"
+ },
+ "plates": {
+  "clock": "Extreme close-up of an old ornate brass wall clock face with roman numerals, dramatic moody side lighting, dust floating in the air, dark background around the clock, the clock face has no hands at all, the center of the dial is empty",
+  "street": "A wide city street in the early morning, a glass bus stop shelter on the right side of the sidewalk, an empty sidewalk running across the whole foreground, apartment buildings and shops with plain blank awnings and no signs, soft golden morning sunlight, long shadows, no people, no vehicles",
+  "street_bus": {
+   "ref": "street",
+   "prompt": "The same street from the reference image, now a big city bus is stopped at the bus stop shelter on the right side, its doors closed, everything else exactly the same, no people"
+  },
+  "bus": "Inside a city bus in the morning, a straight side view of one long row of empty blue passenger seats along the far wall, windows above the seats with a blurred city outside, a vertical yellow grab pole on the left, the floor visible in the foreground, no people",
+  "kitchen": "A small modern apartment kitchen in the daytime, a counter with a few items along the back wall, a window with soft daylight, plants, a clear floor area in the foreground, no people",
+  "kitchen_night": {
+   "ref": "kitchen",
+   "prompt": "The same apartment kitchen from the reference image at night, dark blue city lights through the window, one warm lamp glowing, everything else exactly the same, no people"
+  },
+  "office": "A modern open-plan office in the daytime, desks with computer monitors in the background, big windows, a clear floor area in the foreground, no people",
+  "interview": "A modern office interview room, a wooden desk seen straight from the front filling the lower third of the image, an empty office chair behind the desk, a big window with a city view behind, no people",
+  "night_street": "A dark empty city street at night, a single old street lamp on the left casting a pool of warm light on the wet sidewalk, light fog, dark buildings, no people"
+ },
+ "shots": [
+  {
+   "id": 1,
+   "who": "narrator",
+   "text": "What if you could rewind time?",
+   "plate": "clock",
+   "cam": [
+    [
+     0.5,
+     0.52,
+     1.0
+    ],
+    [
+     0.5,
+     0.52,
+     1.22
+    ]
+   ],
+   "props": [
+    {
+     "prop": "clock",
+     "cx": 0.497,
+     "cy": 0.517,
+     "r": 0.27,
+     "spin": [
+      -40,
+      -900
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "ticking",
+     -8
+    ],
+    [
+     0.3,
+     "rewind",
+     -10
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 2,
+   "who": "narrator",
+   "text": "Not years. Not days. Just ten seconds.",
+   "plate": "clock",
+   "cam": [
+    [
+     0.5,
+     0.52,
+     1.22
+    ],
+    [
+     0.5,
+     0.52,
+     1.5
+    ]
+   ],
+   "props": [
+    {
+     "prop": "clock",
+     "cx": 0.497,
+     "cy": 0.517,
+     "r": 0.27,
+     "spin": [
+      -900,
+      -30
+     ]
+    }
+   ],
+   "pops": [
+    [
+     0,
+     "NOT YEARS."
+    ],
+    [
+     2,
+     "NOT DAYS."
+    ],
+    [
+     4,
+     "JUST"
+    ],
+    [
+     5,
+     "10 SECONDS."
+    ]
+   ],
+   "sfx": [
+    [
+     "w0",
+     "thump",
+     -4
+    ],
+    [
+     "w2",
+     "thump",
+     -4
+    ],
+    [
+     "w5",
+     "boom",
+     -2
+    ]
+   ],
+   "dim": 0.45,
+   "mood": "calm"
+  },
+  {
+   "id": 3,
+   "who": "narrator",
+   "text": "You find out on the worst morning of your life.",
+   "plate": "street",
+   "cam": [
+    [
+     0.33,
+     0.6,
+     1.5
+    ],
+    [
+     0.31,
+     0.62,
+     1.72
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.3,
+     "y": 0.9,
+     "h": 0.5,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle_p",
+       "expr": "neutral",
+       "face": "right"
+      },
+      {
+       "at": 0.3,
+       "pose": "watch_p",
+       "expr": "neutral"
+      },
+      {
+       "at": 0.62,
+       "pose": "shocked",
+       "expr": "shocked"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.62,
+     "pop",
+     -4
+    ],
+    [
+     0.6,
+     "whoosh",
+     -10
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 4,
+   "who": "narrator",
+   "text": "You're late for the biggest job interview you've ever had.",
+   "plate": "street",
+   "cam": [
+    [
+     0.2,
+     0.6,
+     1.35
+    ],
+    [
+     0.58,
+     0.6,
+     1.35
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.0,
+     "y": 0.93,
+     "h": 0.5,
+     "acts": [
+      {
+       "at": 0,
+       "do": "run",
+       "to_x": 0.66,
+       "expr": "worried",
+       "face": "right",
+       "speed": 1.1
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "footsteps",
+     -6
+    ],
+    [
+     0.0,
+     "whoosh",
+     -12
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 5,
+   "who": "narrator",
+   "text": "And the bus doors close right in your face.",
+   "plate": "street_bus",
+   "cam": [
+    [
+     0.5,
+     0.56,
+     1.3
+    ],
+    [
+     0.56,
+     0.58,
+     1.55
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.3,
+     "y": 0.86,
+     "h": 0.42,
+     "acts": [
+      {
+       "at": 0,
+       "do": "run",
+       "to_x": 0.55,
+       "expr": "worried",
+       "face": "right"
+      },
+      {
+       "at": 0.45,
+       "pose": "shocked",
+       "expr": "shocked"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.38,
+     "door",
+     -2
+    ],
+    [
+     0.45,
+     "pop",
+     -8
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 6,
+   "who": "narrator",
+   "text": "It pulls away without you.",
+   "plate": "street",
+   "cam": [
+    [
+     0.57,
+     0.6,
+     1.65
+    ],
+    [
+     0.55,
+     0.58,
+     1.3
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.56,
+     "y": 0.86,
+     "h": 0.42,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "slump",
+       "expr": "sad"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "engine_away",
+     -6
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 7,
+   "who": "narrator",
+   "text": "You squeeze your eyes shut and wish, really wish, you'd run faster.",
+   "plate": "street",
+   "cam": [
+    [
+     0.45,
+     0.52,
+     1.0
+    ],
+    [
+     0.45,
+     0.52,
+     1.14
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.45,
+     "y": 1.27,
+     "h": 1.1,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "fists",
+       "expr": "squeeze",
+       "shake": true
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.18,
+     "riser",
+     -6
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 8,
+   "dur": 1.8,
+   "rewind": [
+    5,
+    6,
+    7
+   ],
+   "sfx": [
+    [
+     0,
+     "rewind",
+     -2
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 9,
+   "who": "narrator",
+   "text": "Then you hear it. The bus. Pulling in again.",
+   "plate": "street_bus",
+   "cam": [
+    [
+     0.4,
+     0.58,
+     1.5
+    ],
+    [
+     0.52,
+     0.56,
+     1.3
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.22,
+     "y": 0.88,
+     "h": 0.44,
+     "acts": [
+      {
+       "at": 0,
+       "do": "run",
+       "to_x": 0.5,
+       "expr": "worried",
+       "face": "right"
+      },
+      {
+       "at": 0.55,
+       "pose": "idle",
+       "expr": "shocked",
+       "look": 0.8
+      },
+      {
+       "at": 0.82,
+       "pose": "idle",
+       "expr": "happy",
+       "look": 0.8
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.15,
+     "brakes",
+     -8
+    ],
+    [
+     0.55,
+     "whoosh",
+     -12
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 10,
+   "who": "narrator",
+   "text": "You make it. Barely.",
+   "plate": "bus",
+   "cam": [
+    [
+     0.38,
+     0.56,
+     1.22
+    ],
+    [
+     0.36,
+     0.56,
+     1.3
+    ]
+   ],
+   "actors": [
+    {
+     "char": "extra:3",
+     "x": 0.36,
+     "y": 0.745,
+     "h": 0.4,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "neutral",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:7",
+     "x": 0.505,
+     "y": 0.785,
+     "h": 0.42,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "neutral",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:11",
+     "x": 0.665,
+     "y": 0.825,
+     "h": 0.44,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "serious",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:19",
+     "x": 0.835,
+     "y": 0.87,
+     "h": 0.46,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "neutral",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "max",
+     "x": 0.2,
+     "y": 0.99,
+     "h": 0.62,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "slump",
+       "expr": "worried",
+       "sweat": true
+      }
+     ]
+    }
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 11,
+   "who": "narrator",
+   "text": "Everyone stares at you like you've seen a ghost.",
+   "plate": "bus",
+   "cam": [
+    [
+     0.42,
+     0.62,
+     1.7
+    ],
+    [
+     0.76,
+     0.66,
+     1.7
+    ]
+   ],
+   "actors": [
+    {
+     "char": "extra:3",
+     "x": 0.36,
+     "y": 0.745,
+     "h": 0.4,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "shocked",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:7",
+     "x": 0.505,
+     "y": 0.785,
+     "h": 0.42,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "serious",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:11",
+     "x": 0.665,
+     "y": 0.825,
+     "h": 0.44,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "scared",
+       "look": -1.0
+      }
+     ]
+    },
+    {
+     "char": "extra:19",
+     "x": 0.835,
+     "y": 0.87,
+     "h": 0.46,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "sit_f",
+       "expr": "angry",
+       "look": -1.0
+      }
+     ]
+    }
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 12,
+   "who": "narrator",
+   "text": "Honestly? You kind of have.",
+   "plate": "bus",
+   "cam": [
+    [
+     0.3,
+     0.5,
+     1.0
+    ],
+    [
+     0.3,
+     0.5,
+     1.1
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.3,
+     "y": 1.32,
+     "h": 1.15,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "smile",
+       "sweat": true,
+       "look": 0.6
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.55,
+     "pop",
+     -10
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 13,
+   "who": "narrator",
+   "text": "So you start testing it.",
+   "plate": "kitchen",
+   "cam": [
+    [
+     0.45,
+     0.56,
+     1.3
+    ],
+    [
+     0.45,
+     0.55,
+     1.5
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.45,
+     "y": 0.95,
+     "h": 0.62,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "neutral"
+      },
+      {
+       "at": 0.3,
+       "pose": "snap",
+       "expr": "smug"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh",
+     -10
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 14,
+   "who": "narrator",
+   "text": "A dropped phone?",
+   "hold": 0.9,
+   "plate": "kitchen",
+   "cam": [
+    [
+     0.45,
+     0.6,
+     1.35
+    ],
+    [
+     0.45,
+     0.62,
+     1.45
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.45,
+     "y": 0.95,
+     "h": 0.62,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "phone",
+       "expr": "smile"
+      },
+      {
+       "at": 0.32,
+       "pose": "phone",
+       "expr": "shocked"
+      },
+      {
+       "at": 0.62,
+       "pose": "phone",
+       "expr": "squeeze"
+      }
+     ]
+    }
+   ],
+   "props": [
+    {
+     "prop": "phone",
+     "keys": [
+      [
+       0,
+       "hand:max"
+      ],
+      [
+       0.25,
+       "hand:max"
+      ],
+      [
+       0.5,
+       [
+        0.455,
+        0.955
+       ],
+       "in"
+      ],
+      [
+       0.64,
+       [
+        0.455,
+        0.955
+       ]
+      ],
+      [
+       0.94,
+       "hand:max",
+       "out"
+      ]
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "kind": "rewind",
+     "from": 0.62,
+     "to": 0.95
+    }
+   ],
+   "sfx": [
+    [
+     0.5,
+     "clack",
+     -4
+    ],
+    [
+     0.6,
+     "rewind_short",
+     -4
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 24,
+   "who": "narrator",
+   "text": "Caught.",
+   "plate": "kitchen",
+   "cam": [
+    [
+     0.47,
+     0.62,
+     1.75
+    ],
+    [
+     0.47,
+     0.62,
+     1.85
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.45,
+     "y": 0.95,
+     "h": 0.62,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "catch",
+       "expr": "happy"
+      }
+     ]
+    }
+   ],
+   "props": [
+    {
+     "prop": "phone",
+     "keys": [
+      [
+       0,
+       "hand:max"
+      ]
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.05,
+     "pop",
+     -4
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 15,
+   "who": "narrator",
+   "text": "A bad joke?",
+   "hold": 1.3,
+   "plate": "office",
+   "cam": [
+    [
+     0.49,
+     0.58,
+     1.4
+    ],
+    [
+     0.49,
+     0.58,
+     1.5
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.37,
+     "y": 0.95,
+     "h": 0.58,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "tell_p",
+       "expr": "happy",
+       "face": "right",
+       "yap": true
+      },
+      {
+       "at": 0.45,
+       "pose": "idle_p",
+       "expr": "smile",
+       "face": "right"
+      }
+     ]
+    },
+    {
+     "char": "coworker",
+     "x": 0.62,
+     "y": 0.95,
+     "h": 0.58,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle_p",
+       "expr": "neutral",
+       "face": "left"
+      }
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "kind": "rewind",
+     "from": 0.8,
+     "to": 1.0
+    }
+   ],
+   "sfx": [
+    [
+     0.45,
+     "crickets",
+     -6
+    ],
+    [
+     0.78,
+     "rewind_short",
+     -4
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 25,
+   "who": "narrator",
+   "text": "Retold until it finally lands.",
+   "hold": 0.4,
+   "plate": "office",
+   "cam": [
+    [
+     0.49,
+     0.58,
+     1.5
+    ],
+    [
+     0.49,
+     0.58,
+     1.6
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.37,
+     "y": 0.95,
+     "h": 0.58,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "tell_p",
+       "expr": "happy",
+       "face": "right",
+       "yap": true
+      },
+      {
+       "at": 0.4,
+       "pose": "idle_p",
+       "expr": "happy",
+       "face": "right"
+      }
+     ]
+    },
+    {
+     "char": "coworker",
+     "x": 0.62,
+     "y": 0.95,
+     "h": 0.58,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle_p",
+       "expr": "neutral",
+       "face": "left"
+      },
+      {
+       "at": 0.4,
+       "pose": "laugh_p",
+       "expr": "laugh",
+       "face": "left",
+       "bounce": true
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.4,
+     "pop",
+     -6
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 16,
+   "who": "narrator",
+   "text": "And the interview? You hear every question twice.",
+   "plate": "interview",
+   "cam": [
+    [
+     0.5,
+     0.5,
+     1.1
+    ],
+    [
+     0.5,
+     0.5,
+     1.28
+    ]
+   ],
+   "actors": [
+    {
+     "char": "interviewer",
+     "x": 0.49,
+     "y": 0.98,
+     "h": 0.62,
+     "clip_y": 0.652,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "desk",
+       "expr": "neutral"
+      },
+      {
+       "at": 0.45,
+       "pose": "desk",
+       "expr": "neutral",
+       "yap": true
+      }
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "kind": "rewind",
+     "from": 0.8,
+     "to": 0.93
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "whoosh",
+     -10
+    ],
+    [
+     0.78,
+     "rewind_short",
+     -6
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 17,
+   "who": "interviewer",
+   "text": "It's almost like you knew exactly what I was going to ask.",
+   "plate": "interview",
+   "cam": [
+    [
+     0.5,
+     0.47,
+     1.45
+    ],
+    [
+     0.5,
+     0.46,
+     1.65
+    ]
+   ],
+   "actors": [
+    {
+     "char": "interviewer",
+     "x": 0.49,
+     "y": 0.98,
+     "h": 0.62,
+     "clip_y": 0.652,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "desk",
+       "expr": "smile"
+      }
+     ]
+    }
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 18,
+   "who": "max",
+   "text": "Lucky guess.",
+   "plate": "interview",
+   "cam": [
+    [
+     0.25,
+     0.5,
+     1.0
+    ],
+    [
+     0.25,
+     0.5,
+     1.08
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.28,
+     "y": 1.3,
+     "h": 1.15,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "smug",
+       "look": 0.5
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0.75,
+     "ding",
+     -6
+    ]
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 19,
+   "who": "narrator",
+   "text": "By Friday, you have the job, a spotless record, and zero embarrassing moments.",
+   "plate": "street",
+   "cam": [
+    [
+     0.25,
+     0.6,
+     1.3
+    ],
+    [
+     0.62,
+     0.6,
+     1.3
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.08,
+     "y": 0.93,
+     "h": 0.5,
+     "acts": [
+      {
+       "at": 0,
+       "do": "walk",
+       "to_x": 0.72,
+       "expr": "happy",
+       "face": "right"
+      }
+     ]
+    }
+   ],
+   "mood": "calm"
+  },
+  {
+   "id": 20,
+   "who": "narrator",
+   "text": "But on Saturday night, you rewind one time too many.",
+   "plate": "kitchen_night",
+   "cam": [
+    [
+     0.45,
+     0.56,
+     1.3
+    ],
+    [
+     0.45,
+     0.55,
+     1.55
+    ]
+   ],
+   "actors": [
+    {
+     "char": "max",
+     "x": 0.45,
+     "y": 0.95,
+     "h": 0.62,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "serious"
+      },
+      {
+       "at": 0.5,
+       "pose": "snap",
+       "expr": "angry"
+      }
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "kind": "rewind",
+     "from": 0.72,
+     "to": 1.0
+    }
+   ],
+   "sfx": [
+    [
+     0.5,
+     "pop",
+     -6
+    ],
+    [
+     0.7,
+     "rewind",
+     -4
+    ]
+   ],
+   "mood": "dark"
+  },
+  {
+   "id": 21,
+   "who": "narrator",
+   "text": "And this time, the ten seconds come back different.",
+   "plate": "night_street",
+   "cam": [
+    [
+     0.6,
+     0.6,
+     1.3
+    ],
+    [
+     0.62,
+     0.6,
+     1.48
+    ]
+   ],
+   "actors": [
+    {
+     "char": "stranger",
+     "x": 0.79,
+     "y": 0.8,
+     "h": 0.42,
+     "fade": [
+      0.5,
+      0.68
+     ],
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "serious",
+       "look": -0.6
+      }
+     ]
+    },
+    {
+     "char": "max",
+     "x": 0.55,
+     "y": 0.93,
+     "h": 0.5,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "worried",
+       "look": -0.8
+      },
+      {
+       "at": 0.72,
+       "pose": "idle",
+       "expr": "scared",
+       "look": 0.9
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    [
+     0,
+     "heartbeat",
+     -4
+    ],
+    [
+     0.52,
+     "sting",
+     -2
+    ]
+   ],
+   "mood": "dark"
+  },
+  {
+   "id": 22,
+   "who": "stranger",
+   "text": "You felt that too, didn't you?",
+   "plate": "night_street",
+   "cam": [
+    [
+     0.62,
+     0.5,
+     1.0
+    ],
+    [
+     0.62,
+     0.5,
+     1.12
+    ]
+   ],
+   "actors": [
+    {
+     "char": "stranger",
+     "x": 0.62,
+     "y": 1.33,
+     "h": 1.2,
+     "acts": [
+      {
+       "at": 0,
+       "pose": "idle",
+       "expr": "serious",
+       "look": -0.3
+      }
+     ]
+    }
+   ],
+   "mood": "dark"
+  },
+  {
+   "id": 23,
+   "dur": 2.5,
+   "plate": null,
+   "pops": [
+    [
+     0.15,
+     "TO BE CONTINUED..."
+    ]
+   ],
+   "sfx": [
+    [
+     0.1,
+     "boom",
+     -3
+    ]
+   ],
+   "mood": "dark"
+  }
+ ],
+ "plate_picks": {
+  "clock": 1,
+  "street": 1,
+  "street_bus": 1,
+  "bus": 2,
+  "kitchen": 1,
+  "kitchen_night": 1,
+  "office": 1,
+  "interview": 2,
+  "night_street": 2
+ }
+}

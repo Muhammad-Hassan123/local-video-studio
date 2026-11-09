@@ -1,0 +1,48 @@
+# Animated story template v1. Copy to cartoon\episodes\<name>\screenplay.txt, fill it in, run: make_cartoon.py <name> all
+#
+# FORMAT: a first-person "this happened to me" story told by a recurring narrator (NARRATOR: <cast id>), acted out by the
+# cast in cartoon scenes. Recurring characters with their own lives (cast.json "bio") are what bring viewers back.
+#
+# PACKAGING FIRST
+#  - Title: first person, concrete, a little alarming, under 60 characters ("My Perfect Neighbor Had a Key to My Apartment").
+#  - 2-3 THUMB lines (YouTube Test & Compare): 1-3 huge words, one big scared/shocked face, the antagonist smiling behind.
+#
+# STRUCTURE (8-10 min = 1,250-1,500 words, about 150 spoken words per minute plus pauses; check the TTS total)
+#  0:00-0:40  COLD OPEN: start at the most alarming moment (the middle of the story), show it, then "My name is ... and this
+#             is how ..." to camera ({cam}). Then -- title.
+#  0:40-2:00  WHO WE ARE: the place, the narrator's stakes (what they can lose and why it matters to them), the cast in
+#             one line each, with one human detail.
+#  2:00-4:00  SOMETHING DOESN'T FIT: three strange details, numbered out loud ("Strange thing number one..."), each in its own scene.
+#  ~4:00      BACK TO THE COLD OPEN: "Which brings us back to..." and the first real discovery. Raise the stakes.
+#  4:00-6:00  INVESTIGATE: the narrator takes a risk; a friend helps badly (comedy); a reveal shown with an {insert: ...}.
+#  6:00-7:30  CONFRONTATION: the antagonist attacks in public; the narrator wins with something set up earlier (a callback).
+#  7:30-8:30  TWIST + HOOK: a quiet scene that reframes the story in one line, then a new threat for the next episode.
+#  end        -- card 3.5 {pop: TO BE CONTINUED...}   then   -- card 10 {pop: <A QUESTION FOR THE COMMENTS>}
+#
+# CRAFT RULES
+#  - Every line under 18 words. Narration says what we can't see; dialogue does the rest. A joke every ~30 s.
+#  - Direct almost every line: [name: pose expression]. Expressions change faces; held poses (props) persist, gestures last one line.
+#  - Use {insert: name} pictures for every clue (a key, a letter, a wall of photos): they are what viewers remember.
+#  - {zoom} on reveals, {hold: 0.8} after the biggest ones, {shake} on shocks.
+#  - Reuse locations from earlier episodes (cartoon\locations\) so the series has a home; new ones cost ~30 s each.
+#  - New poses and expressions cost ~1 min each the first time per character, then they are free forever.
+
+TITLE: <First-person title>
+NARRATOR: nia
+THUMB: <1-3 WORDS> | nia shocked | <location> | leo smug
+POSE: <name> = Holding <prop> in front of {p} chest
+
+@<location>: <place, time of day, light, details>
+@<location>_night < <location>: The same <place> from the reference image at night, everything else the same
+@<clue> {insert}: Close-up of <the clue>
+
+## <Chapter 1>
+== <location> | nia (tense)
+NARRATOR: <The most alarming moment, shown.> [nia: shocked] {zoom}
+NARRATOR: My name is Nia Okafor. And this is how <the story in one line>. [nia: serious] {cam}
+-- title 3.2 {pop: <TITLE IN CAPS>}
+
+# ... who we are, strange things, back to the cold open, investigate, confrontation, twist ...
+
+-- card 3.5 {pop: TO BE CONTINUED...}
+-- card 10 {pop: <QUESTION FOR THE COMMENTS>}

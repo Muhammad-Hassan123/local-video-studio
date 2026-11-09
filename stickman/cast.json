@@ -1,0 +1,267 @@
+{
+ "max": {
+  "voice": "am_liam",
+  "design": {
+   "top": [
+    24,
+    24,
+    26
+   ],
+   "legs": [
+    24,
+    24,
+    26
+   ],
+   "shoes": [
+    12,
+    12,
+    12
+   ],
+   "cap": [
+    226,
+    132,
+    48
+   ],
+   "scarf": [
+    176,
+    46,
+    42
+   ]
+  }
+ },
+ "zoe": {
+  "voice": "af_heart",
+  "design": {
+   "top": [
+    74,
+    76,
+    84
+   ],
+   "legs": [
+    26,
+    26,
+    30
+   ],
+   "shoes": [
+    14,
+    14,
+    14
+   ],
+   "skirt": [
+    70,
+    104,
+    152
+   ],
+   "hair": "ponytail",
+   "hair_color": [
+    26,
+    24,
+    24
+   ],
+   "glasses": true,
+   "straps": [
+    56,
+    140,
+    220
+   ]
+  }
+ },
+ "hale": {
+  "voice": "bm_george",
+  "design": {
+   "top": [
+    40,
+    40,
+    46
+   ],
+   "legs": [
+    22,
+    22,
+    24
+   ],
+   "shoes": [
+    10,
+    10,
+    10
+   ],
+   "coat": true,
+   "hat": [
+    34,
+    32,
+    36
+   ],
+   "torso": [
+    40,
+    40,
+    46
+   ]
+  }
+ },
+ "stranger": {
+  "voice": "bm_george",
+  "design": {
+   "top": [
+    40,
+    40,
+    46
+   ],
+   "legs": [
+    22,
+    22,
+    24
+   ],
+   "shoes": [
+    10,
+    10,
+    10
+   ],
+   "coat": true,
+   "hat": [
+    34,
+    32,
+    36
+   ],
+   "torso": [
+    40,
+    40,
+    46
+   ]
+  }
+ },
+ "interviewer": {
+  "voice": "af_sarah",
+  "design": {
+   "top": [
+    58,
+    70,
+    88
+   ],
+   "legs": [
+    40,
+    40,
+    44
+   ],
+   "shoes": [
+    20,
+    20,
+    20
+   ],
+   "hair": "bun",
+   "hair_color": [
+    52,
+    38,
+    30
+   ],
+   "glasses": true,
+   "collar": [
+    235,
+    232,
+    225
+   ],
+   "torso": [
+    58,
+    70,
+    88
+   ]
+  }
+ },
+ "coworker": {
+  "voice": "am_eric",
+  "design": {
+   "top": [
+    92,
+    122,
+    150
+   ],
+   "legs": [
+    54,
+    56,
+    60
+   ],
+   "shoes": [
+    30,
+    24,
+    20
+   ],
+   "hair": "short",
+   "hair_color": [
+    90,
+    60,
+    36
+   ],
+   "torso": [
+    92,
+    122,
+    150
+   ]
+  }
+ },
+ "kane": {
+  "voice": "am_onyx",
+  "design": {
+   "top": [
+    38,
+    44,
+    62
+   ],
+   "legs": [
+    28,
+    28,
+    32
+   ],
+   "shoes": [
+    12,
+    12,
+    12
+   ],
+   "hair": "short",
+   "hair_color": [
+    150,
+    150,
+    154
+   ],
+   "collar": [
+    235,
+    232,
+    225
+   ],
+   "torso": [
+    38,
+    44,
+    62
+   ]
+  }
+ },
+ "walter": {
+  "voice": "bm_lewis",
+  "design": {
+   "top": [
+    112,
+    92,
+    74
+   ],
+   "legs": [
+    58,
+    54,
+    50
+   ],
+   "shoes": [
+    30,
+    24,
+    20
+   ],
+   "hair": "short",
+   "hair_color": [
+    196,
+    196,
+    196
+   ],
+   "coat": true,
+   "torso": [
+    112,
+    92,
+    74
+   ]
+  }
+ }
+}

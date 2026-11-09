@@ -1,0 +1,60 @@
+# What If screenplay template v2. Copy to episodes\<name>\screenplay.txt, fill it in, run: make_video.py <name> all
+#
+# BEFORE WRITING (packaging first: if the title and thumbnail aren't great, the video doesn't matter)
+#  1. Run topics.py. Pick a premise that is NOT already in research\topics_<date>.md, or a clearly fresh angle on a winner.
+#  2. The premise needs a VISIBLE MECHANIC: something we can draw over people all the time
+#     (a battery %, a price tag, a countdown, a lie counter). It drives the hook, the HUD and the thumbnail.
+#  3. Title: "What If You Could/Were ...?", 4-8 words, under 60 characters.
+#  4. Thumbnails: 2-3 variants (YouTube "Test & Compare" picks the winner). 1-3 huge words, one big expressive face,
+#     the mechanic as a badge. Never repeat the title word for word.
+#
+# STRUCTURE (8-9 min, ~1,250-1,350 words, about 160 words per minute; check the TTS total, mid-roll ads need 8:00+)
+#  0:00-0:30  HOOK: the premise HAPPENS on screen in the first 10 s (a paradox or a shock), with no explaining yet.
+#             End on a question or a cost: "...and you have no idea what it's going to cost you."
+#  0:30       -- title card
+#  0:35-2:00  RULES: discover the mechanic through quick experiments (funny, relatable numbers) and state it in
+#             "note: RULE 1: ..." banners. Weave in one REAL fact here or later.
+#  2:00-4:00  ESCALATION LADDER: use the power on bigger and bigger things, with time skips (note: WEEK 1 / DAY 21), a
+#             graphic (number / chart / versus) every ~60-90 s, and an antagonist who exploits the same rules.
+#  ~4:00      RE-HOOK: "But remember that price I mentioned? This is where you start paying it."
+#  4:00-6:00  THE COST: a hidden rule turns the power against you (it never comes back, it's addictive...).
+#  6:00-7:30  THE CHOICE + CLIMAX: someone you love needs it at the worst moment; you pay anyway; you beat the antagonist
+#             using the rules, not violence.
+#  7:30-8:15  THE TWIST: reframe the whole story in one line (someone was secretly doing it for YOU), then a cliffhanger line.
+#  end        -- card 3.5 {pop: TO BE CONTINUED...}
+#             -- card 10 {pop: <A QUESTION VIEWERS ANSWER IN THE COMMENTS>}   (also leaves room for YouTube's end screen)
+#
+# CRAFT RULES
+#  - "You" is the hero (Max on screen). Every scene changes a number we can SEE.
+#  - Short lines (under 16 words). Concrete details beat adjectives ("twelve percent" beats "really low").
+#  - A joke or a surprise every ~30 s. Name side characters with one human detail ("Sam has a newborn at home").
+#  - Give each dialogue character a voice in cast.json. Keep extras silent (extra:N).
+#  - Use [char: pose expression -> ...] on almost every line; shocked/scared beats add a pop sound by themselves.
+#  - Add {hold: 0.6-1.0} after the biggest reveals so they land.
+#  - Never copy another channel's script, characters or exact title. Same genre, our own story.
+
+TITLE: What If You Could <premise>?
+NARRATOR: am_puck
+THUMB: <1-3 WORDS> | <char> <expression> [pose] | <plate> | over=battery 1
+THUMB: <1-3 WORDS> | <char> <expression> | <plate> | over=tag $8.7B
+
+@<plate>: <place>, <time of day and light>, an open floor in the foreground, no people
+@<plate2> < <plate>: The same place from the reference image at night, everything else the same, no people
+
+## <Chapter 1>
+== <plate> | max, extra:3 (tense)
+NARRATOR: <The premise happening, shown.> [max: shocked shocked] {over: extra:3=battery 87->1}
+NARRATOR: <The paradox / the shock.> [extra:3: lie] {burst: THUD!@0.45; hold: 0.8}
+NARRATOR: <The cost question.> [max: worried sweat] {shot: close}
+-- title 3.2 {pop: WHAT IF YOU COULD <PREMISE>?}
+
+## <Chapter 2: The Rules>
+== <plate2> | max (happy)
+NARRATOR: <Experiment one, a number we see.> [max: smile] {over: max=battery 80->83; note: EXPERIMENT 1}
+NARRATOR: <The rule in plain words.> {note: RULE 1: <SHORT RULE>}
+NARRATOR: <A real fact that backs it up.> {graphic: chart down | <LABEL>}
+
+# ... escalation, re-hook, cost, choice, climax, twist ...
+
+-- card 3.5 {pop: TO BE CONTINUED...}
+-- card 10 {pop: <QUESTION FOR THE COMMENTS>}

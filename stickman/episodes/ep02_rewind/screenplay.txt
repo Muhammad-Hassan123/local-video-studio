@@ -1,0 +1,247 @@
+TITLE: What If You Could Rewind 10 Seconds
+NARRATOR: am_puck
+
+# ---------------------------------------------------------------- locations (one painted plate each)
+@clock {free; clock=0.497,0.517,0.27}: Extreme close-up of an old ornate brass wall clock face with roman numerals, dramatic moody side lighting, dust floating in the air, dark background around the clock, the clock face has no hands at all, the center of the dial is empty
+@street: A wide city street in the early morning, a glass bus stop shelter on the right side of the sidewalk, an empty sidewalk running across the whole foreground, apartment buildings and shops with plain blank awnings and no signs, soft golden morning sunlight, long shadows, no people, no vehicles
+@street_bus < street: The same street from the reference image, now a big city bus is stopped at the bus stop shelter on the right side, its doors closed, everything else exactly the same, no people
+@bus {pick=2}: Inside a city bus in the morning, a straight side view of one long row of empty blue passenger seats along the far wall, windows above the seats with a blurred city outside, a vertical yellow grab pole on the left, the floor visible in the foreground, no people
+@kitchen: A small modern apartment kitchen in the daytime, a counter with a few items along the back wall, a window with soft daylight, plants, a clear floor area in the foreground, no people
+@kitchen_night < kitchen {amb=night}: The same apartment kitchen from the reference image at night, dark blue city lights through the window, one warm lamp glowing, everything else exactly the same, no people
+@office: A modern open-plan office in the daytime, desks with computer monitors in the background, big windows, a clear floor area in the foreground, no people
+@interview {pick=2; desk=0.652; amb=room}: A modern office interview room, a wooden desk seen straight from the front filling the lower third of the image, an empty office chair behind the desk, a big window with a city view behind, no people
+@night_street {pick=2}: A dark empty city street at night, a single old street lamp on the left casting a pool of warm light on the wet sidewalk, light fog, dark buildings, no people
+@hale_room {amb=room}: A dim old apartment study with dozens of antique clocks of all sizes covering every wall, a heavy wooden desk with an open notebook and papers in the background, a single green desk lamp, dusty curtains, no people
+@residential: A quiet residential street in the daytime, old apartment buildings with small balconies and flower pots on the ledges above the sidewalk, trees, a wide empty sidewalk in the foreground, no people, no vehicles
+@cafe {amb=room}: A cozy city cafe interior in the daytime, small round wooden tables and chairs along the walls, a counter with a coffee machine in the back, warm light through big windows, an open floor in the middle, no people
+@crosswalk: A wide city crosswalk at an intersection in the daytime, painted white zebra stripes across the road in the foreground, traffic lights, shops on the far side, no people, no vehicles
+@crosswalk_night < crosswalk {amb=night}: The same crosswalk from the reference image at night, the wet road reflecting red and green traffic lights, streetlights glowing, light fog, everything else the same, no people, no vehicles
+@rooftop_dawn: A flat city rooftop at sunrise with a low brick parapet wall, water tanks and antennas, the city skyline glowing under a warm golden sky, no people
+
+## Ten Seconds
+== clock (tense)
+NARRATOR: What if you could rewind time? {fx: rewind}
+NARRATOR: Not years. Not days. Just ten seconds. {pop: NOT YEARS | NOT DAYS | 10 SECONDS}
+
+== street | max (calm)
+NARRATOR: You find out on the worst morning of your life. [max: watch -> shocked shocked]
+NARRATOR: You're late for the biggest job interview you've ever had. [max: run right worried]
+
+== street_bus | max (tense)
+NARRATOR: And the bus doors close right in your face. [max: shocked shocked] {sfx: door@0.35}
+
+== street | max (tense)
+NARRATOR: It pulls away without you. [max: slump sad] {sfx: engine_away@0}
+NARRATOR: You squeeze your eyes shut and wish, really wish, you'd run faster. [max: fists squeeze shake] {sfx: riser@0.15; shot: close}
+-- beat 1.8 {fx: replay 3}
+
+== street_bus | max (calm)
+NARRATOR: Then you hear it. The bus. Pulling in again. [max: shocked -> idle happy] {sfx: brakes@0.15}
+
+== bus | max, extra:3, extra:7, extra:11 (calm)
+NARRATOR: You make it. Barely. [max: slump worried sweat]
+NARRATOR: Everyone stares at you like you've seen a ghost. [extra:3: shocked; extra:7: serious; extra:11: scared] {shot: wide}
+NARRATOR: Honestly? You kind of have. [max: idle smile sweat] {shot: close}
+
+== kitchen | max (tense)
+NARRATOR: That evening, you sit in your kitchen and stare at your hands. [max: worried]
+NARRATOR: Was it real? Did you dream the whole thing? [max: shrug worried]
+NARRATOR: There's only one way to find out. [max: serious] {hold: 0.4}
+
+== kitchen | max (happy)
+NARRATOR: So you start testing it. [max: snap smug]
+NARRATOR: A dropped phone? [max: phone smile -> phone shocked] {sfx: clack@0.6; fx: rewind; hold: 0.6}
+NARRATOR: Caught. [max: catch happy] {sfx: pop@0.05; shot: close}
+
+== office | max, coworker (happy)
+NARRATOR: A bad joke? [max: tell happy talk; coworker: neutral] {sfx: crickets@0.4; fx: rewind; hold: 1.2}
+NARRATOR: Retold until it finally lands. [max: tell happy talk -> idle happy; coworker: neutral -> laugh laugh bounce] {hold: 0.4}
+
+== interview | interviewer@desk (calm)
+NARRATOR: And the interview? You hear every question twice. [interviewer: desk talk] {fx: rewind}
+INTERVIEWER: It's almost like you knew exactly what I was going to ask. [desk smile]
+
+== interview | max (calm)
+MAX: Lucky guess. [smug] {sfx: ding@0.75}
+
+== office | max, coworker, extra:2 (happy)
+NARRATOR: Your first week at the new job is perfect. Too perfect. [max: smug] {shot: wide}
+NARRATOR: You catch every typo a second after you hit send. [max: tell happy talk -> idle smile] {fx: rewind}
+NARRATOR: You skip every awkward silence. [coworker: laugh laugh bounce; max: happy]
+NARRATOR: When your boss knocks his coffee across his keyboard, you rewind and move the cup. [max: reach smug] {sfx: clack@0.3; fx: rewind}
+NARRATOR: He never even knows it happened. [max: smug] {shot: close}
+
+== street | max (happy)
+NARRATOR: By Friday, you have the job, a spotless record, and zero embarrassing moments. [max: walk right happy]
+
+== cafe | max, zoe (happy)
+NARRATOR: That night you celebrate with Zoe, your best friend since the fifth grade. [zoe: happy; max: happy] {shot: wide}
+ZOE: To the guy who finally got a real job. [happy talk]
+MAX: To me. [smug]
+NARRATOR: She bets you can't guess what she ordered for you. You guess wrong. [zoe: hips smug; max: shrug neutral]
+NARRATOR: So you rewind, and guess again. [max: snap smug] {fx: rewind}
+MAX: Iced caramel, extra shot, no whipped cream. [smug]
+ZOE: Okay. That's actually terrifying. [shocked shocked]
+NARRATOR: She laughs it off. You don't tell her how you knew. Not yet. [zoe: laugh laugh; max: smile]
+
+== kitchen_night | max (tense)
+NARRATOR: But on Saturday night, you rewind one time too many. [max: serious -> snap angry] {fx: rewind}
+
+== night_street | max, hale@later (dark)
+NARRATOR: And this time, the ten seconds come back different. [max: worried look left -> scared; hale: appear serious] {sfx: heartbeat@0}
+HALE: You felt that too, didn't you? [serious]
+-- title 3.2 {pop: WHAT IF YOU COULD REWIND 10 SECONDS?}
+
+## The Man Who Felt It
+== night_street | max, hale (dark)
+MAX: Who are you? [scared]
+HALE: Someone who's been doing this a lot longer than you. [serious]
+NARRATOR: His name is Hale. He's old, calm, and he talks like he's already heard this conversation. [hale: hips smug]
+NARRATOR: Maybe he has. [max: worried]
+
+== hale_room | max, hale (tense)
+NARRATOR: He takes you to his apartment. Every wall is covered in clocks. [max: shocked look left] {shot: wide; sfx: ticking@0}
+NARRATOR: Hundreds of them, all ticking at the same time. [max: worried] {sfx: ticking@0}
+HALE: Every time someone rewinds, the world skips. Most people never notice. [talk]
+HALE: People like us always do. [point serious]
+NARRATOR: Then he tells you the rules. The rules nobody else will ever tell you. [hale: serious]
+HALE: Rule one. Ten seconds. Never more. {pop: RULE 1 | TEN SECONDS}
+HALE: Rule two. Every rewind sends out a ripple, and anyone with the gift can feel it. {pop: RULE 2 | EVERYONE FEELS IT}
+HALE: Rule three. Never rewind the same ten seconds three times. {pop: RULE 3 | NEVER THREE TIMES}
+MAX: What happens if you do? [worried]
+NARRATOR: Hale doesn't answer. He just looks at the clocks. [hale: watch serious] {sfx: ticking@0}
+MAX: How did you get it? The gift. [worried]
+HALE: A car crash, forty years ago. My wife was in the passenger seat. [sad]
+HALE: I wished for ten more seconds. And I got them. [sad]
+NARRATOR: He doesn't say if he saved her. You don't ask. [max: worried; hale: slump sad]
+HALE: Since that night, I've saved four thousand, one hundred and six people. [serious] {pop: 4,106 SAVED}
+HALE: Most people would use this gift to get rich. [smug]
+HALE: It isn't for winning. It's for catching people before they fall. [serious]
+HALE: Come with me tomorrow. I'll show you what this gift is really for. [smile]
+
+## Saving Strangers
+== residential | max, hale, extra:5 (happy)
+NARRATOR: The next morning, Hale is waiting for you on a quiet street. [hale: hips smile]
+HALE: Watch the third balcony. [point serious]
+NARRATOR: A flower pot slips off the ledge, right above a woman pushing a stroller. [max: shocked shocked; extra:5: neutral] {sfx: whoosh_down@0.5, crash@0.88}
+-- beat 1.6 {fx: replay 2}
+NARRATOR: Ten seconds back. You run. [max: run right worried] {sfx: footsteps@0}
+NARRATOR: You pull her out of the way, and the pot shatters on the empty sidewalk. [max: catch happy; extra:5: shocked] {sfx: crash@0.55}
+NARRATOR: She thanks you three times. You've never felt anything like it. [max: idle smile; extra:5: happy]
+
+== cafe | max, hale, extra:9 (happy)
+NARRATOR: At a cafe, a man starts choking on his sandwich. [extra:9: shocked shake] {shot: wide}
+NARRATOR: The first time, nobody knows what to do. [max: shocked shocked] {fx: rewind}
+NARRATOR: The second time, you're already behind him. [max: hips serious]
+NARRATOR: One hard push, and he's breathing again. [max: reach happy; extra:9: happy] {sfx: pop@0.45}
+
+== street | max, hale, extra:6 (happy)
+NARRATOR: Not every save goes perfectly. [max: shrug smile] {shot: wide}
+NARRATOR: Once, you rewind four times just to stop a pigeon from stealing a little girl's sandwich. [max: fists angry -> slump sad] {fx: rewind}
+NARRATOR: The pigeon wins every single time. [max: shrug sad] {sfx: crickets@0.3}
+HALE: Some battles aren't worth the days. [smug]
+NARRATOR: You laugh. You don't stop to think about what he meant. [max: laugh laugh]
+
+== crosswalk | max, hale, extra:14 (tense)
+NARRATOR: A kid chases his ball into the street. [extra:14: run right worried] {sfx: horn@0.55, screech@0.75}
+-- beat 1.5 {fx: replay 1}
+NARRATOR: Rewind. You grab his hood a second before the light changes. [max: reach -> catch happy; extra:14: shocked] {sfx: horn@0.35}
+NARRATOR: His mom never even sees what almost happened. [extra:14: happy; max: smile]
+NARRATOR: Week after week, you and Hale save strangers who will never know your names. [max: happy; hale: smile] {shot: wide}
+NARRATOR: For the first time in your life, you feel like you matter. [max: smile] {shot: close}
+
+== hale_room | max, hale (tense)
+NARRATOR: But one thing keeps bugging you. [max: worried] {shot: wide}
+NARRATOR: In all those weeks, you've never once seen Hale snap his fingers. [max: serious; hale: hips smug]
+NARRATOR: Every rewind is yours. Every single one. [max: worried]
+MAX: Why don't you ever do it yourself? [serious]
+HALE: Because you need the practice. [smile]
+NARRATOR: It's a good answer. It's also a lie. [max: worried] {sfx: sting@0.5}
+
+## Zoe
+== cafe | max, zoe (calm)
+NARRATOR: Your best friend Zoe notices the change before anyone else does. [zoe: hips serious]
+ZOE: You always know what I'm about to say. It's creepy. [smug]
+MAX: Maybe I'm just a really good listener. [smile]
+ZOE: You? Please. [laugh laugh]
+NARRATOR: You almost tell her everything. Almost. [max: worried]
+NARRATOR: But Hale made you promise. Nobody can ever know. [max: serious]
+
+## The Price
+== kitchen_night | max (tense)
+NARRATOR: Then, one night, something feels wrong. [max: worried]
+NARRATOR: You're exhausted all the time. Your hands won't stop shaking. [max: slump sad shake]
+NARRATOR: You count every rewind since the bus. Three hundred and twelve. [max: shocked shocked] {pop: 312 REWINDS}
+NARRATOR: You catch your reflection in the dark window. [max: worried look right]
+NARRATOR: There are lines on your face that weren't there a month ago. [max: scared sweat]
+
+== hale_room | max, hale@later (dark)
+NARRATOR: You go back to Hale's apartment. He isn't home. [max: worried look left]
+NARRATOR: The clocks are silent. Every single one has stopped. [max: shocked shocked] {sfx: sting@0.3}
+NARRATOR: On his desk is a notebook, and every rewind you've ever made is written inside. [max: shocked shocked] {sfx: thump@0.6}
+NARRATOR: Next to each one, the same two words. [max: scared]
+NARRATOR: One day. {pop: ONE DAY}
+NARRATOR: Every rewind costs a day of your life. {pop: 1 REWIND = 1 DAY}
+NARRATOR: Three hundred and twelve rewinds. Almost a year of your life, gone. [max: slump sad] {pop: -312 DAYS}
+NARRATOR: And Hale knew. [max: angry]
+HALE: I wondered how long it would take you. [appear serious]
+MAX: You used me. [angry talk]
+HALE: I've spent eleven years of my life in ten second pieces. I'm running out. [sad]
+HALE: When you rewind, I go back with you. Your days. Not mine. [serious]
+NARRATOR: Every person you saved was a test, and every test was paid for with your life. [max: fists squeeze shake]
+MAX: Find someone else. [angry]
+HALE: I don't need anyone else. I already have you. [smug]
+MAX: I'm done. No more rewinds. Ever. [angry]
+HALE: Then I'll give you a reason. [smug]
+HALE: Your friend Zoe crosses Fifth Street every night at nine. [serious]
+NARRATOR: Your blood runs cold. [max: shocked shocked] {sfx: heartbeat@0}
+HALE: Ten seconds is plenty of time for an accident. [serious] {sfx: sting@0.6}
+
+## The Crosswalk
+== crosswalk_night | max, zoe (dark)
+NARRATOR: Two nights later, Zoe asks you to meet her downtown. [zoe: smile]
+NARRATOR: She waves from across the street and steps onto the crosswalk. [zoe: walk left happy] {sfx: footsteps@0}
+NARRATOR: Then you see the headlights. [max: shocked shocked look right] {sfx: horn@0.4, screech@0.65}
+NARRATOR: A car is coming way too fast, and it isn't slowing down. [max: scared] {sfx: horn@0.2}
+
+== crosswalk_night | max, zoe, hale (dark)
+NARRATOR: And you see Hale, standing on the corner, watching you. [hale: serious; max: scared] {shot: wide}
+NARRATOR: He wants you to rewind. [max: fists squeeze shake] {shot: close}
+HALE: Go on. Save her. [smug]
+-- beat 1.6 {fx: replay 2}
+NARRATOR: You rewind once. The car still comes. [max: shocked shocked] {sfx: screech@0.4}
+-- beat 1.6 {fx: replay 2}
+NARRATOR: You rewind twice. The same ten seconds. The same headlights. [max: scared shake] {sfx: heartbeat@0}
+NARRATOR: Across the street, Hale smiles. He can feel every ripple. [hale: smug]
+NARRATOR: Rule three. Never rewind the same ten seconds three times. {pop: RULE 3}
+NARRATOR: If you rewind again, you might not come back at all. [max: scared] {shot: close}
+NARRATOR: So you don't. [max: angry] {shot: close}
+NARRATOR: You run. [max: run right angry] {sfx: footsteps@0}
+NARRATOR: No power. No second chance. Just you. [max: catch angry; zoe: shocked] {sfx: screech@0.3, boom@0.6}
+NARRATOR: You pull Zoe out of the street, and the car misses you both by an inch. [zoe: scared; max: idle happy sweat]
+NARRATOR: Across the street, Hale snaps his fingers. [hale: snap angry] {fx: rewind}
+NARRATOR: Nothing happens. [hale: shocked shocked]
+NARRATOR: Without your rewinds, he has nothing left to spend. [hale: slump sad]
+NARRATOR: He walks into the fog, and you never see him again. [hale: exit right sad]
+NARRATOR: Zoe is shaking. She keeps asking how you knew to run. [zoe: scared shake]
+MAX: I just had a feeling. [smile]
+
+== kitchen | max (calm)
+NARRATOR: For days, you flinch every time a phone falls or a door slams. [max: shocked shocked -> slump worried]
+NARRATOR: Your fingers want to snap. You don't let them. [max: fists serious]
+NARRATOR: Slowly, the shaking stops. [max: idle smile] {hold: 0.4}
+
+## The Last Ripple
+== rooftop_dawn | max, zoe (calm)
+NARRATOR: The next morning, you sit on the roof with Zoe and watch the sun come up. [max: smile; zoe: smile] {shot: wide}
+NARRATOR: The sky turns gold, and for once, you let the moment play out exactly once. [max: smile; zoe: smile]
+NARRATOR: Zoe leans against your shoulder. Neither of you says anything for a long time. [zoe: smile; max: smile] {hold: 0.6}
+NARRATOR: You decide you're done rewinding. Forever. [max: serious]
+NARRATOR: Some mistakes are supposed to stay made. [max: smile] {shot: close}
+ZOE: You've been different lately. Calmer. [smile]
+MAX: I stopped trying to fix everything. [smile]
+ZOE: Can I tell you something weird? [worried]
+ZOE: Last night, on the crosswalk, right before you grabbed me... [serious]
+ZOE: You felt that too, didn't you? [smug] {sfx: sting@0.6}
+-- card 3.5 {pop: TO BE CONTINUED...}
+-- card 8 {pop: WOULD YOU TRADE A DAY FOR 10 SECONDS?}

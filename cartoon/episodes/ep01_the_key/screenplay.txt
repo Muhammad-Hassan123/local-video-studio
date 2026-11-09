@@ -1,0 +1,188 @@
+TITLE: My Perfect Neighbor Had a Key to My Apartment
+NARRATOR: nia
+THUMB: HE HAD A KEY | nia shocked | kitchen_night | leo smug mug
+THUMB: TOO PERFECT? | leo smile wave | hallway_day | nia confused
+THUMB: 3 A.M. | nia scared | kitchen_night | leo smile mug
+POSE: mug = Holding a white coffee mug in one hand in front of {p} chest
+POSE: folder = Holding an open manila folder of papers in both hands in front of {p} chest, looking at it
+POSE: call = Holding a smartphone against {p} ear with one hand, talking on the phone
+POSE: cookies = Holding a plate of pink cookies out in front of {t} with both hands
+
+@hallway: A narrow fourth-floor apartment building hallway at night, old wooden apartment doors on the left wall, warm wall lamps, worn red carpet runner, cracked cream paint
+@hallway_day < hallway: The same hallway from the reference image on a bright morning, sunlight from a window at the far end, everything else the same
+@kitchen: A small cozy old apartment kitchen, mint green cabinets, a fridge covered in magnets, a window over the sink, an open wooden doorframe on the right, checkered floor, morning light
+@kitchen_night < kitchen: The same kitchen from the reference image at night, lit by one warm lamp and blue moonlight from the window, everything else the same
+@living: A small cluttered apartment living room, a worn orange couch, a desk with two computer monitors and game controllers, plants on the windowsill, afternoon light
+@lobby: The ground floor lobby of an old apartment building, a wall of brass mailboxes, an old wooden staircase, a potted plant, tiled floor, daytime
+@leo_apt: A nearly empty apartment at night, bare white walls, a folding table with a laptop, a camera on a tripod, one chair, cardboard boxes, cold blue light
+@building {insert}: A four-storey old red brick apartment building on a quiet city street at dusk, warm lit windows, a green front door, trees on the sidewalk
+@mailboxes {insert}: Close-up of a wall of old brass mailboxes in a lobby, one mailbox is empty and shiny while all the others overflow with letters
+@keyshot {insert}: Close-up of a small brass apartment key lying on a worn doormat, warm lamp light
+@wall {insert}: A wall covered with dozens of pinned photographs of different people connected with red string and sticky notes, some photos crossed out with a red X, dim blue light
+@doorframe {insert}: Close-up of an old painted wooden kitchen doorframe covered in pencil height marks with tiny handwritten notes climbing up the wood, warm light
+@letter {insert; pick=2}: Close-up of an old yellowed letter on a kitchen table at night next to a manila folder, lamp light
+@cookies {insert}: Close-up of a plate of heart-shaped pink frosted cookies held out in a dim apartment hallway
+
+## Three A.M.
+== hallway | nia (tense)
+NARRATOR: Three a.m. I'd just finished a twelve-hour shift in the E.R. [nia: serious] {zoom}
+NARRATOR: And my apartment door was open. [nia: shocked] {sfx: sting@0.3}
+== kitchen_night | nia@later, leo (tense)
+NARRATOR: Standing in my kitchen, holding my mug, was my new neighbor. [leo: mug smile; nia: enter left scared]
+LEO: Oh! Hey, neighbor. Your faucet was leaking. I fixed it. [mug smile]
+NARRATOR: I don't have a leaking faucet. [nia: worried]
+NARRATOR: And I never gave him a key. {insert: keyshot}
+NIA: How did you get in here? [scared]
+LEO: Door was open. You should really be more careful, Nia. [mug smug]
+NARRATOR: He smiled like a toothpaste commercial. Then he walked right past me. [leo: exit left]
+NARRATOR: My name is Nia Okafor. And this is how the nicest man I ever met almost took my home. [nia: serious] {cam}
+-- title 3.2 {pop: MY PERFECT NEIGHBOR HAD A KEY}
+
+## Building Nine
+== lobby | varga, nia (calm)
+NARRATOR: Two weeks earlier. Building Nine, Alder Street. {insert: building}
+NARRATOR: Four floors. No elevator. One radiator that screams at night like it's being murdered. {insert: building}
+NARRATOR: My mom signed our lease when I was nine. She died two years ago. [nia: sad]
+NARRATOR: That lease is the last thing I have with her name on it. {shot: close}
+NARRATOR: Every spare dollar I make goes into a jar marked bakery. Mom's recipes, my name on a sign. Someday. [nia: smile]
+NARRATOR: And the only reason that jar isn't empty? Our rent is controlled. Nine hundred dollars a month. [nia: serious]
+NARRATOR: The renovated units go for thirty-two hundred. Which made my landlady very popular with developers. [varga: serious]
+VARGA: Another one called this morning. He wants to buy my building. [serious]
+NIA: What did you tell him? [confused]
+VARGA: I told him a building is its people. Then I hung up. Twice. [smug]
+NARRATOR: That's Mrs. Varga. Seventy-one. Fixes the boiler herself. Terrifies plumbers. [varga: cross smug]
+== living | omar, nia (happy)
+NARRATOR: And that's Omar, my roommate. He answered my ad three years ago and never left. [omar: phone happy]
+OMAR: Devlog, day nine hundred and twelve. The game is almost done. Again. [phone happy]
+NIA: Omar, it's your week for the dishes. [cross serious]
+OMAR: The dishes are a side quest, Nia. [shrug smile]
+NARRATOR: I love him. He's a disaster. Both things are true. [nia: smile]
+
+## The New Neighbor
+== hallway_day | nia, omar, leo@later (happy)
+NARRATOR: Then, on a Tuesday, apartment 4C got a new tenant. [leo: enter right]
+LEO: Hi! Leo. Leo Marsh. I just moved in next door. [wave smile]
+LEO: I baked banana bread. Is it weird that I baked banana bread? [smile]
+OMAR: That is the least weird thing that has ever happened in this hallway. [happy]
+NARRATOR: In one week, Leo fixed Mrs. Varga's door, carried everyone's groceries, and learned all of our birthdays. [leo: smile]
+NARRATOR: Omar was in love. [omar: happy]
+OMAR: He laughed at my radiator joke. Nobody laughs at my radiator joke. [smile]
+== lobby | varga, leo (calm)
+LEO: Mrs. Varga! I fixed your squeaky door. No charge. [wave smile]
+VARGA: Hmm. Men who smile that much are selling something. [cross serious]
+LEO: Then I guess I'm selling happiness! [smile]
+VARGA: I'm not buying. [smug]
+== hallway_day | nia, omar (calm)
+NARRATOR: But I'm an E.R. nurse. My whole job is noticing what doesn't fit. [nia: serious] {shot: close}
+== lobby | nia (tense)
+NARRATOR: Strange thing number one. Leo never got any mail. Not a bill. Not a flyer. Nothing. {insert: mailboxes}
+NARRATOR: Strange thing number two. He asked a lot of questions. [nia: think confused]
+== hallway_day | nia, leo (tense)
+LEO: So, how long have you lived here? Is the lease in your name? Just curious. [smile]
+NIA: Why would you need to know that? [cross confused]
+LEO: I'm a curious guy! [smile -> smug]
+== living | omar, nia (tense)
+NIA: Doesn't it bother you that Leo has no mail? No friends? No furniture? [cross serious]
+OMAR: Maybe he's a minimalist. Minimalists are very trendy right now. [shrug smile]
+NIA: Omar, he asked me if the lease is in my name. [serious]
+OMAR: So he's a curious minimalist. [worried]
+NARRATOR: And then came strange thing number three. Late at night, through the wall, I heard him on the phone. [nia: worried]
+== leo_apt | leo (dark)
+LEO: Two units left, Mr. Crane. The old lady won't sell while they're still here. [call serious]
+LEO: Don't worry. 4B is gone by Friday. [call smug]
+== kitchen_night | nia (tense)
+NARRATOR: Gone by Friday. 4B was us. [nia: shocked] {shake; hold: 0.8}
+
+## The Key
+NARRATOR: Which brings us back to three a.m., and Leo in my kitchen. [nia: worried]
+NARRATOR: After he left, I checked the drawer where I keep my mom's lease. [nia: folder worried]
+NARRATOR: The folder was there. But the pages were in the wrong order. [nia: folder shocked]
+NARRATOR: Somebody had read every single one. {shot: close}
+== kitchen | nia, omar (tense)
+NIA: Omar. Leo had a key to our apartment. [angry]
+OMAR: Okay. Okay, okay, okay. Funny story. [hands scared]
+NARRATOR: Omar is the worst liar in the building. His left eye does a thing. [omar: worried]
+OMAR: I'm three months behind on my half of the rent. [sad]
+OMAR: Leo said he'd cover it. As a friend. He just needed me to sign one little form. [worried]
+NIA: What form, Omar? [angry]
+OMAR: A receipt! I think. There was a lot of small print. [shrug worried]
+NARRATOR: It wasn't a receipt. [nia: phone shocked]
+NARRATOR: It was a statement saying I only moved in last year. That I never lived here with my mom. [nia: phone angry]
+NARRATOR: If I didn't grow up in this apartment, the lease dies with her. And so does the rent control. {shot: close}
+NIA: You signed away my home for three months of rent. [sad]
+OMAR: I didn't know! Nia, I swear, I didn't know. [crying]
+NARRATOR: And that's when I stopped being polite. [nia: angry] {zoom}
+
+## Apartment 4C
+== hallway | nia, omar (tense)
+NARRATOR: Leo went to the gym every night at nine. Like a perfect man. [nia: serious]
+NIA: You keep watch. If he comes back, you text me. [point serious]
+OMAR: What do I text? [scared]
+NIA: Anything! [angry]
+OMAR: Okay. I'll text, the eagle has landed. [smile]
+NIA: Omar. [serious]
+OMAR: Or, he's back. I'll text, he's back. [worried]
+NARRATOR: Leo's door was unlocked. Of course it was. He wanted everyone to trust him. [nia: exit right]
+== leo_apt | nia@later (dark)
+NARRATOR: Inside, there was no furniture. No pictures. No life. Just a laptop, a camera. [nia: enter left; nia: worried]
+NARRATOR: And the wall. {insert: wall; sfx: sting@0.1}
+NARRATOR: Every tenant in our building was on it. {insert: wall}
+NARRATOR: Mr. Patel, 2A. Noise complaint. Gone. The Kim family, 3A. Illegal sublet. Gone. [nia: scared]
+NARRATOR: Under every photo, a number. What that apartment would rent for once its people were gone. [nia: worried]
+NARRATOR: And at the top, a photo of me. My name. And one word. Leverage. [nia: shocked] {shot: close; hold: 1.0}
+NARRATOR: He wasn't a neighbor. He was a professional. A tenant relocation specialist. [nia: angry]
+NARRATOR: Developers pay men like Leo to empty buildings. Not with threats. With paperwork, debts, and smiles.
+NARRATOR: Then my phone buzzed. [nia: phone scared] {sfx: beep@0.2}
+NARRATOR: The eagle has landed. [nia: phone shocked] {shot: close}
+-- beat 0.8 [nia: scared] {shake}
+NARRATOR: I got out just as his key turned in the lock. [nia: exit left] {sfx: door@0.85}
+
+## The Meeting
+== lobby | nia, omar, varga, leo (tense)
+NARRATOR: Two days later, Leo called a building meeting. In our lobby. With a folder. [leo: folder smile]
+LEO: Mrs. Varga, I'm so sorry. But 4B is breaking the law. [folder smile]
+LEO: Nia doesn't qualify for that lease. Her own roommate signed a statement. [smug]
+VARGA: Is this true, Omar? [angry]
+OMAR: I, uh, signed a thing. [worried]
+LEO: If you keep an illegal tenant, the city fines you. A lot. Unless, of course, you sell. [hips smug]
+VARGA: Forty-six years I own this building. Nobody tells me who is illegal. [angry]
+LEO: The city will, Mrs. Varga. On Friday. [hips smile]
+NARRATOR: And there it was. He didn't want my apartment. He wanted the whole building. [nia: angry]
+NIA: You want proof I grew up here? Come upstairs. [point angry]
+== kitchen | nia, varga, leo, omar (calm)
+NARRATOR: Every birthday, from the day we moved in, my mom measured me on that doorframe. {insert: doorframe}
+NARRATOR: Nia, age nine. Nia, age ten. All the way to eighteen. In her handwriting. {insert: doorframe}
+NIA: That's nine years of proof. In pencil. With dates. [sad -> serious]
+LEO: Pencil marks. Cute. That won't hold up anywhere. [smug]
+OMAR: Maybe not. But this will. [phone serious]
+NARRATOR: Remember Omar's devlog? He records everything. Everything. [omar: phone smug]
+OMAR: Devlog, day nine hundred and four. Leo says if I sign this, my debt disappears, and Nia never has to know. [phone serious]
+NARRATOR: Paying someone to sign a false statement has a name. Fraud. [leo: shocked] {zoom; hold: 0.8}
+VARGA: Mister Marsh. [angry]
+VARGA: Men who smile that much are always selling something. Get out of my building. [point angry]
+LEO: You'll regret this. Crane always gets what he wants. [angry]
+-- beat 2.2 [leo: exit left] {mood: happy}
+
+## The Letter
+== kitchen | nia, omar, varga (happy)
+NARRATOR: Leo was gone by morning. And Omar's rent? [omar: smile]
+VARGA: He fixes my boiler for three months. Then we are even. [smug]
+OMAR: I don't know how to fix a boiler. [worried]
+VARGA: You will. [smile]
+VARGA: Your mother would be proud of you, Nia. She also fought like a cat. [smile]
+NIA: She would have loved the part where he left. [smile]
+NIA: Thank you, Omar. For the recording. [smile]
+OMAR: Thank you for not murdering me. [happy]
+== kitchen_night | nia (tense)
+NARRATOR: That night, I put my mom's lease back in the drawer. And I found something that wasn't there before. [nia: folder confused]
+NARRATOR: A letter from Crane Developments. To my mother. Dated fifteen years ago. {insert: letter}
+NARRATOR: Final offer for 4B. And under it, in her handwriting, one word. Never. [nia: folder sad -> smile] {hold: 1.0}
+NARRATOR: Leo hadn't been reading my lease. He'd been looking for this. [nia: worried]
+NARRATOR: Which means Crane has wanted this building for a very, very long time. [nia: serious] {zoom}
+== hallway | nia, penny (dark)
+NARRATOR: The next morning, there was a knock on my door. [penny: cookies smile; nia: confused]
+PENNY: Hi! I'm Penny. I just moved into 2A. I made cookies! [cookies smile]
+-- beat 1.2 {insert: cookies; sfx: sting@0.1}
+NARRATOR: I don't eat cookies anymore. [nia: serious] {cam}
+-- card 3.5 {pop: TO BE CONTINUED...}
+-- card 10 {pop: WOULD YOU HAVE TRUSTED LEO?}

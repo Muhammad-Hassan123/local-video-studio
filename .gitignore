@@ -1,0 +1,23 @@
+venv/
+models/
+__pycache__/
+*.pyc
+
+# episode outputs are rebuilt from the screenplay; only the screenplay is versioned
+*/episodes/*/*
+!*/episodes/*/screenplay.txt
+
+# generated character art and locations: only the master drawing (the identity anchor) is versioned
+cartoon/characters/*/*
+!cartoon/characters/*/master.png
+cartoon/locations/
+
+# stickman legacy pipeline references (large)
+stickman/characters/candidates/
+stickman/characters/old_v1/
+# these two episodes predate the screenplay format: their script.json is the source
+!stickman/episodes/ep01_moon/script.json
+!stickman/episodes/pilot_rewind/script.json
+
+# composed music beds (rebuilt by the music stage)
+shared/music/

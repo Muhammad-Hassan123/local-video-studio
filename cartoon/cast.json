@@ -1,0 +1,72 @@
+{
+ "series": "Building Nine",
+ "style": "2D cartoon character design for an adult animated web series, flat colors, clean bold black outlines, simple cel shading, expressive face, appealing proportions",
+ "plate_style": "2D cartoon background art for an adult animated web series, flat colors, clean bold black outlines, simple cel shading, warm cozy palette, no people, no characters, no animals, no text, no letters, no words",
+ "characters": {
+  "nia": {
+   "name": "Nia Okafor",
+   "age": 27,
+   "pronoun": "she",
+   "height": 0.93,
+   "seed": 12,
+   "key": "magenta",
+   "tag": "the young woman with a big curly black hair puff and a mustard yellow hoodie",
+   "look": "a 27-year-old woman with warm brown skin, big curly black hair in a high puff, round gold earrings, mustard yellow hoodie, dark green cargo pants, white sneakers",
+   "voice": "af_heart*0.7+af_nova*0.3",
+   "speed": 1.0,
+   "bio": "ER nurse on night shifts and the narrator of the series. Grew up in apartment 4B; her mother signed the rent-controlled lease when Nia was nine and died two years ago, so the lease is the last thing with her mother's name on it. Saving every spare dollar to open a bakery. Notices everything, trusts slowly, jokes when she is scared."
+  },
+  "omar": {
+   "name": "Omar Haddad",
+   "age": 30,
+   "pronoun": "he",
+   "height": 1.02,
+   "seed": 11,
+   "key": "green",
+   "tag": "the skinny man with round glasses, a mustache and a red flannel shirt",
+   "look": "a tall skinny 30-year-old man with light olive skin, messy dark hair, a thin mustache, round glasses, a red flannel shirt over a grey t-shirt, blue jeans, brown boots",
+   "voice": "am_michael*0.6+am_echo*0.4",
+   "speed": 1.05,
+   "bio": "Nia's roommate for three years, answered her ad and never left. Broke indie game developer who records a voice devlog of his whole life. Optimist, overthinker, the worst liar in the building. Secretly three months behind on his half of the rent."
+  },
+  "leo": {
+   "name": "Leo Marsh",
+   "age": 34,
+   "pronoun": "he",
+   "height": 1.0,
+   "seed": 21,
+   "key": "green",
+   "tag": "the man with slicked-back hair in a light grey blazer and black turtleneck",
+   "look": "a 34-year-old man with tan skin, slicked-back dark hair, a perfect white smile, a light grey blazer over a black turtleneck, dark trousers, black loafers",
+   "voice": "am_onyx*0.5+am_fenrir*0.5",
+   "speed": 0.98,
+   "bio": "The too-perfect new neighbor in 4C. Fixes doors, carries groceries, remembers birthdays. Actually a 'tenant relocation specialist' paid by a developer to empty rent-controlled buildings with paperwork, debts and charm."
+  },
+  "varga": {
+   "name": "Mrs. Delphine Varga",
+   "age": 71,
+   "pronoun": "she",
+   "height": 0.84,
+   "seed": 31,
+   "key": "green",
+   "tag": "the short old woman with a silver bun, cat-eye glasses and a purple cardigan",
+   "look": "a short stout 71-year-old woman with pale skin, silver hair in a tight bun, thick cat-eye glasses on a beaded chain, a purple cardigan over a flowered dress, fuzzy pink slippers",
+   "voice": "bf_emma*0.6+bf_alice*0.4",
+   "speed": 0.92,
+   "bio": "The landlady on the ground floor. She and her late husband bought Building Nine in 1979. Grumpy, nosy, fixes everything herself, refuses every offer to sell because 'a building is its people'. Says what everyone else is too polite to say."
+  },
+  "penny": {
+   "name": "Penny Lark",
+   "age": 29,
+   "pronoun": "she",
+   "height": 0.9,
+   "seed": 41,
+   "key": "green",
+   "tag": "the young woman with a short red bob and a pink cardigan",
+   "look": "a 29-year-old woman with fair skin and freckles, a short strawberry-blonde bob, a pastel pink cardigan over a white blouse, a light blue skirt, white flats",
+   "voice": "af_bella*0.6+af_sky*0.4",
+   "speed": 1.0,
+   "bio": "The sweet new tenant in 2A who arrives with cookies. Nobody knows who she really works for yet."
+  }
+ }
+}

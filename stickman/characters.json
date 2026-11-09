@@ -1,0 +1,12 @@
+{
+  "max": {
+    "name": "Max",
+    "ref": "characters/max_front.png",
+    "traits": "orange baseball cap, red scarf with a short pointed tail, big round white head, small white rounded torso, arms and legs are single thick black lines, small round white hands, two separate small black oval shoes, Max wears no skirt and no shorts: his black stick legs start directly below his white torso"
+  },
+  "zoe": {
+    "name": "Zoe",
+    "ref": "characters/zoe_front.png",
+    "traits": "ONE single black ponytail on the right side with short black bangs, round black glasses, small white torso, short blue skirt, thin blue backpack straps, arms and legs are single thick black lines, small round white hands, two separate small black oval shoes"
+  }
+}
